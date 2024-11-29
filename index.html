@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nukerqq</title>
+  <style>
+    /* Ogólny styl strony */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      background: url('https://media.tenor.com/images/cd627f6ac853a4a5d93f8cb547da03ac/tenor.gif') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .profile-container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    /* Avatar użytkownika */
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin: 20px 0;
+    }
+
+    /* Nazwa użytkownika */
+    .username {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    /* Opis użytkownika */
+    .bio {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    /* Linki do mediów społecznościowych */
+    .links {
+      margin: 20px 0;
+    }
+
+    .links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animacja tła */
+    @keyframes backgroundAnim {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+    body {
+      animation: backgroundAnim 10s infinite alternate;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <!-- Animowany Avatar -->
+    <img class="avatar" src="https://media.discordapp.net/attachments/1090649190335524965/1128270979647422504/tumblr_nzca5do6vD1tivnvko1_400.gif?ex=674ae83b&is=674996bb&hm=3a3fd247f84c8d609e386d4835e3ab854ed2c0c08b4db99b83572047e40ecf09&" alt="Avatar">
+
+    <!-- Nazwa użytkownika -->
+    <div class="username">Nukerqq</div>
+    
+    <!-- Opis użytkownika -->
+    <div class="bio">„Jebać te osoby co we mnie nie wiedziały”</div>
+
+    <!-- Linki do mediów społecznościowych -->
+    <div class="links">
+      <a href="https://steamcommunity.com/profiles/76561199683015049/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Steam_icon_logo.svg/1200px-Steam_icon_logo.svg.png" alt="Steam" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://open.spotify.com/user/31jb4ip6vk2vpuj4ssd2c26yq3h4si=afeaa847c9f04f25" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://discord.gg/WuZetSTORE" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Discord_logo_2023.svg" alt="Discord" style="width: 30px; height: 30px;">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
